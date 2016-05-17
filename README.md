@@ -1,6 +1,6 @@
 # OS_Page_Replacement
 
-* we will be simulating using two different page replacement algorithms and evaluating the performance of each.  These two algorithms will be PFF and VSWS.  
+* We will be simulating using two different page replacement algorithms and evaluating the performance of each.  These two algorithms will be PFF and VSWS.  
 * A filename is given to your program on the command line.  The file contains integers only, one per line, how many is up to you but a large number is a good idea (10,000?).  
 * The first integer is an indication to you how many pages the process occupies; this will not change throughout the run of the program. All subsequent integers are page references which the program makes during it execution.
 * In the PFF algorithm, we decide if a new frame should be allocated based on the time since the last page fault.  For this, you can use a number of page accesses (remember those integers in the file????).  You must decide what a reasonable F value is.  Try a few different values.  Record the total number of page faults across the run of the program.  Put a short comment in your code about how F impacts the total number of page faults.
